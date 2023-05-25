@@ -9,7 +9,7 @@ Utilizei Java 8 com padrão MVC e MySQL como banco de dados relacional. Para as 
   - Por exemplo, um refrigerante é um produto único e final, já um cachorro quente é um produto composto e final;
   - A salsicha é um produto único e ingrediente que compõe um produto final (neste caso, o cachorro quente);
   - O pão de cachorro quente é um produto composto e ingrediente (que compõe o cachorro quente);
-  - O fermento é um produto final e ingrediente (que compõe o pão).
+  - O fermento é um produto único e ingrediente (que compõe o pão).
 * As fórmulas são a lista de ingredientes com suas respectivas quantidades para formar um produto composto;
 * As produções são, literalmente, a produção de um produto composto, para que o mesmo entre em estoque. Por exemplo: produzir o pão de cachorro quente para que tenha o mesmo no estoque a fim de vender o cachorro quente;
   - É possível fazer uma produção manual ou cadastrar uma rotina de produção, especificando o produto, a quantidade e os dias da semana;
@@ -24,7 +24,7 @@ Utilizei Java 8 com padrão MVC e MySQL como banco de dados relacional. Para as 
 * Há uma tela para fazer backup do banco de dados;
 * Diversos relatórios de estoque, pedidos, caixa e extras;
 * A maioria das tabelas e comboboxes são personalizadas;
-* Há stored procedures e triggers no banco de dados para certas ações, como atualização de estoque e atualização do custo de um produto.
+* Há <i>stored procedures</i> e <i>triggers</i> no banco de dados para certas ações, como atualização de estoque e atualização do custo de um produto.
 
 ## Esta é a tela principal:
 
