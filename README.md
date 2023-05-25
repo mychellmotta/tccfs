@@ -28,3 +28,7 @@ Utilizei Java 8 com padrão MVC e MySQL como banco de dados relacional. Para as 
 ## Esta é a tela principal:
 
 ![image](https://github.com/mychellmotta/tccfs/assets/13575346/e349010f-37fc-40d5-9907-d0dd2331353e)
+
+## Próximos passos:
+* Migrar para Maven
+* Melhorar o código seguindo novos conceitos aprendidos
